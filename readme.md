@@ -47,7 +47,7 @@ response = requests.post(
 print(response.json())
 ```
 
-## Scraper API parameters
+## Web Scraper API parameters
 
 ### Parsing the page title and retrieving results in JSON
 
