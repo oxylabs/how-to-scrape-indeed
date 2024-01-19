@@ -30,7 +30,7 @@ $ pip install requests
 
 ## Overview of Web Scraper API
 
-The following is an example that shows how Scraper API works.
+The following is an example that shows how Web Scraper API works.
 
 ```python
 # scraper_api_demo.py
