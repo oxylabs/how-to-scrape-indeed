@@ -160,6 +160,8 @@ You can use the following CSS selector to select one job listing:
 
 We can iterate over each matching item and get the specific jobdata points such as job title, company name, location, salalry range, dateposted, and job description.
 First, create the placeholder for job listing as follows:
+
+```
 "job_listings": {
     "\_fns": [
         {
@@ -167,6 +169,8 @@ First, create the placeholder for job listing as follows:
             "\_args": [".job_seen_beacon"]
         }
     ],
+```
+    
 Note the use of the function css. It means that it willreturn all matching elements.
 Next, we can use reserved property **\_items** to indicatethat we want to iterate over a list, further processing each list itemseparately.
 It will allow us to use concatenating to the path alreadydefined as follows:
