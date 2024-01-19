@@ -112,16 +112,6 @@ print(response.json()['results'][0]['content'])
 
 ### Creating the placeholder for a job listing
 
-```python
-"job_listings": {
-    "_fns": [
-        {
-            "_fn": "css",
-            "_args": [".job_seen_beacon"]
-        }
-    ],
-```
-
 ```
 "job_listings": {
     "_fns": [
