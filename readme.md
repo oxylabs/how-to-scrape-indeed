@@ -170,6 +170,8 @@ First, create the placeholder for job listing as follows:
 Note the use of the function css. It means that it willreturn all matching elements.
 Next, we can use reserved property **\_items** to indicatethat we want to iterate over a list, further processing each list itemseparately.
 It will allow us to use concatenating to the path alreadydefined as follows:
+
+```
 "job_listings": {
     "\_fns": [
         {
@@ -194,6 +196,8 @@ It will allow us to use concatenating to the path alreadydefined as follows:
                 }
             ]
         },
+```
+
 Similarly, we can add other selectors. After adding otherdetails, here are the job_search_payload.json partial file contents:
 
 ```json
