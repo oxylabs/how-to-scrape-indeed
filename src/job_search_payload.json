@@ -1,0 +1,66 @@
+{
+    "source": "universal",
+    "url": "https://www.indeed.com/jobs?q=work+from+home&l=San+Francisco%2C+CA",
+    "render": "html",
+    "parse": true,
+    "parsing_instructions": {
+        "job_listings": {
+            "_fns": [
+                {
+                    "_fn": "css",
+                    "_args": [".job_seen_beacon"]
+                }
+            ],
+            "_items": {
+                "job_title": {
+                    "_fns": [
+                        {
+                            "_fn": "xpath_one",
+                            "_args": [".//h2[contains(@class,'jobTitle')]/a/span/text()"]
+                        }
+                    ]
+                },
+                "company_name": {
+                    "_fns": [
+                        {
+                            "_fn": "xpath_one",
+                            "_args": [".//span[@data-testid='company-name']/text()"]
+                        }
+                    ]
+                },
+                "location": {
+                    "_fns": [
+                        {
+                            "_fn": "xpath_one",
+                            "_args": [".//div[@data-testid='text-location']//text()"]
+                        }
+                    ]
+                },
+                "salary_range": {
+                    "_fns": [
+                        {
+                            "_fn": "xpath_one",
+                            "_args": [".//div[contains(@class, 'salary-snippet-container') or contains(@class, 'estimated-salary')]//text()"]
+                        }
+                    ]
+                },
+                "date_posted": {
+                    "_fns": [
+                        {
+                            "_fn": "xpath_one",
+                            "_args": [".//span[@class='date']/text()"]
+                        }
+                    ]
+                },
+                "job_description": {
+                    "_fns": [
+                        {
+                            "_fn": "xpath_one",
+                            "_args": ["normalize-space(.//div[@class='job-snippet'])"]
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}
