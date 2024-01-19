@@ -6,7 +6,7 @@ Here's the process of extracting job postings from [Indeed](https://www.indeed.c
 
 For the complete guide with in-depth explanations and visuals, check our [blog post](https://oxylabs.io/blog/how-to-scrape-indeed).
 
-## Project Setup
+## Project setup
 
 ### Creating a virtual environment
 
