@@ -63,7 +63,7 @@ print(response.json())
 },
 ```
 
-If you send this as `parsing_instructions`, the output would be the following JSON:
+If you send this as `parsing_instructions`, the output would be the following JSON.
 
 ```python
 { "title": "Job Search | Indeed", "parse_status_code": 12000 }
@@ -71,7 +71,7 @@ If you send this as `parsing_instructions`, the output would be the following JS
 
 Note that the `parse_status_code` means a successful response.
 
-The following code prints the title of the Indeed page:
+The following code prints the title of the Indeed page.
 
 ```python
 # indeed_title.py
