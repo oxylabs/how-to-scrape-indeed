@@ -177,7 +177,7 @@ print(response.json()['results'][0]['content'])
 }
 ```
 
-For other data points, see the [file here](src/job_search_payload.json).
+For other data points, see the file [here](src/job_search_payload.json).
 
 ### Saving the payload as a separator JSON file
 
