@@ -22,7 +22,7 @@ python3 -m venv indeed_env #Macand Linux
 source indeed_env/bin/activate #Macand Linux
 ```
 
-### Installing required libraries
+### Installing libraries
 
 ```python
 $ pip install requests
