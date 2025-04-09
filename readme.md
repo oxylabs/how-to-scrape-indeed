@@ -2,6 +2,8 @@
 
 [![Oxylabs promo code](https://raw.githubusercontent.com/oxylabs/product-integrations/refs/heads/master/Affiliate-Universal-1090x275.png)](https://oxylabs.go2cloud.org/aff_c?offer_id=7&aff_id=877&url_id=112)
 
+[![](https://dcbadge.vercel.app/api/server/eWsVUJrnG5)](https://discord.gg/Pds3gBmKMH)
+
 Here's the process of extracting job postings from [Indeed](https://www.indeed.com/) with the help of Oxylabs [Web Scraper API](https://oxylabs.io/products/scraper-api/web) (**1-week free trial**) and Python.
 
 For the complete guide with in-depth explanations and visuals, check our [blog post](https://oxylabs.io/blog/how-to-scrape-indeed).
