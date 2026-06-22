@@ -213,6 +213,6 @@ df.to_csv("job_search_results.csv", index=False)
 
 ## Final word
 
-Check our [documentation](https://developers.oxylabs.io/scraper-apis/web-scraper-api) for more API parameters and variables found in this tutorial.
+Check our [documentation](https://developers.oxylabs.io/products/web-scraper-api) for more API parameters and variables found in this tutorial.
 
 If you have any questions, feel free to contact us at support@oxylabs.io.
